@@ -33,7 +33,7 @@ const RandomMeals = () => {
   });
 
   return (
-    <section className="w-full px-6">
+    <section className="w-full px-6 pb-5">
       <div className="max-w-6xl mx-auto flex flex-col gap-12">
         {/* Header */}
         <div className="flex justify-between">
@@ -84,7 +84,7 @@ const RandomMeals = () => {
             meals?.map((meal) => (
               <Link
                 key={meal.idMeal}
-                href={`/recipes/${meal.idMeal}`}
+                href={`/recipe/${meal.idMeal}`}
                 className="group flex flex-col bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-400 ease-out ring-1 ring-black/5"
               >
                 <div className="relative w-full h-48 overflow-hidden">

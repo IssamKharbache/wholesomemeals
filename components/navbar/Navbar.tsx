@@ -26,7 +26,10 @@ const Navbar = () => {
           <div className="w-9 h-9 rounded-lg bg-[#FF6B00] flex items-center justify-center text-lg shadow-md transition-transform duration-200 group-hover:-rotate-6 group-hover:scale-105">
             🍴
           </div>
-          <span className="text-xl font-bold tracking-tight font-serif text-neutral-900">
+          <span
+            style={{ fontFamily: "'Playfair Display', serif" }}
+            className="text-xl font-bold tracking-tight font-serif text-neutral-900 italic"
+          >
             Wholsome
             <span className="italic font-normal text-[#FF6B00]">meals</span>
           </span>

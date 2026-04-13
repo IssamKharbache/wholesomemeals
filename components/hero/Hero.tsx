@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Navbar from "../navbar/Navbar";
 
 const HeroSection = () => {
   return (
@@ -10,7 +9,6 @@ const HeroSection = () => {
         background: "linear-gradient(333deg, #FFA500 50%, #ffffff 50%)",
       }}
     >
-      <Navbar />
       <div className="min-h-[calc(100vh-68px)] flex items-center justify-center px-6 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center max-w-5xl w-full">
           {/* ── Left Copy ── */}

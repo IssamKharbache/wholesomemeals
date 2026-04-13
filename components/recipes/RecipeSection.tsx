@@ -166,7 +166,7 @@ const RecipesSection = () => {
             : meals.map((meal) => (
                 <Link
                   key={meal.idMeal}
-                  href={`/recipes/${meal.idMeal}`}
+                  href={`/recipe/${meal.idMeal}`}
                   className="group flex flex-col bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-400 ease-out ring-1 ring-black/5"
                 >
                   {/* ── Image wrapper: fixed height, no fill, no stretch ── */}
