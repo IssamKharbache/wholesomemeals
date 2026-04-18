@@ -45,13 +45,6 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="/collections"
-            className="text-sm font-medium px-3 py-1.5 rounded-md text-neutral-700 hover:bg-orange-100/60 hover:text-[#FF6B00] transition"
-          >
-            Collections
-          </Link>
-
-          <Link
             href="/meal-planner"
             className="text-sm font-medium px-3 py-1.5 rounded-md text-neutral-700 hover:bg-orange-100/60 hover:text-[#FF6B00] transition"
           >

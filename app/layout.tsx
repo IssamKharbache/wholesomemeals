@@ -4,6 +4,7 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/navbar/Navbar";
 import ReactQueryProvider from "./providers/ReactQueryProvider";
+import Footer from "@/components/Footer";
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
@@ -46,6 +47,7 @@ export default function RootLayout({
         <ReactQueryProvider>
           <Navbar />
           {children}
+          <Footer />
         </ReactQueryProvider>
       </body>
     </html>
